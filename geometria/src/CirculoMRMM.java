@@ -6,7 +6,7 @@ public class CirculoMRMM extends FiguraGeometricaMRMM {
 	
 	public CirculoMRMM(double r, String tipoFigura) {
 		super(tipoFigura);
-		radio = r;
+		radio = Math.abs(r);
 	}
 
 	@Override
